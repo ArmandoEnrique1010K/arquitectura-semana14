@@ -1,0 +1,10 @@
+CREATE DATABASE testdb;
+USE testdb;
+
+INSERT INTO testdb.courses (credits, fee, modules, name) VALUES (2, 60, 3, "Blockchain");
+INSERT INTO testdb.courses (credits, fee, modules, name) VALUES (2, 60, 3, "Inteligencia artificial");
+INSERT INTO testdb.courses (credits, fee, modules, name) VALUES (2, 60, 3, "Microservicios");
+INSERT INTO testdb.courses (credits, fee, modules, name) VALUES (2, 60, 3, "Big Data");
+INSERT INTO testdb.courses (credits, fee, modules, name) VALUES (2, 60, 3, "Diseño de software");
+
+SELECT * FROM testdb.courses;
